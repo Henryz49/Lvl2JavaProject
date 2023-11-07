@@ -105,18 +105,18 @@
             }, 250);
           }
         }
-        document.getElementById("score").innerHTML = "Score: " + score;
+        document.getElementById("score").textContent = "Score: " + score;
       }
       let getMessage = document.getElementById("winMessage")
       if(matches.length >= 16){
         if(score <= 24){
-          getMessage.innerHTML = "You gotta be cheating!"
+          getMessage.textContent = "You gotta be cheating!"
         }
         else if(score<=38){
-          getMessage.innerHTML = "You're pretty good at this! But you could be better"
+          getMessage.textContent = "You're pretty good at this! But you could be better"
         }
         else if(score<=48){
-          getMessage.innerHTML = "Did you go to losertown? Because you're kinda a loser with a score like this... You sure you didn't go to jupiter to get stupider?  "
+          getMessage.textContent = "Did you go to losertown? Because you're kinda a loser with a score like this... You sure you didn't go to jupiter to get stupider?  "
         }
       }
     }
