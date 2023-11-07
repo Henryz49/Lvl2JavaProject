@@ -81,3 +81,6 @@ button:hover{
     color: rgb(184, 219, 249);
   
 }
+#winMessage{
+    text-align:center;
+}
