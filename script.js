@@ -59,6 +59,9 @@
       });
     }
 
+    function reset() {
+      location.reload()
+    }
 
     function updateGame(objectName) {
       const object = items[objectName];
