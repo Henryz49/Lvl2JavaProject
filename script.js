@@ -81,11 +81,11 @@ function updateGame(objectName) {
     } else if (customAttribute == "pair4") {
       img.src = "zshocked.PNG";
     } else if (customAttribute == "pair5") {
-      img.src = "zmonke.PNG";
+      img.src = "zmonke.png";
     } else if (customAttribute == "pair6") {
-      img.src = "zlobster.PNG";
+      img.src = "zlobster.png";
     } else if (customAttribute == "pair7") {
-      img.src = "zcutegoat.PNG";
+      img.src = "zcutegoat.png";
     } else if (customAttribute == "pair8") {
       img.src = "zBAJABLAST.gif";
     }
