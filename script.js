@@ -31,7 +31,6 @@ for (let i = 0; i < gridArray.length; i += 2) {
 }
 
 
-//im gonna keep it a buck with you, i had to use chat gpt for this part because i had like 30 aneurysms trying to do this for like 3 hours
 function shuffleGrid() {
   const dataAttributes = gridArray.map(item => item.dataset.customAttribute);
   for (let i = dataAttributes.length - 1; i > 0; i--) {
