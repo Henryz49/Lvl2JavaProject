@@ -115,8 +115,8 @@ function updateGame(objectName) {
     else if(score<=38){
       getMessage.textContent = "You're pretty good at this! But you could be better"
     }
-    else if(score<=48){
-      getMessage.textContent = "Did you go to losertown? Because you're kinda a loser with a score like this... You sure you didn't go to jupiter to get stupider?  "
+    else if(score>=48){
+      getMessage.textContent = "Damn you suck"
     }
   }
 }
